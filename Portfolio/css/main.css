@@ -2,7 +2,9 @@ body, html{
     height: 100%;
     margin: 0px
 }
-
+body{
+    background-color:aliceblue;
+}
 
 nav li{
     display: inline;
@@ -69,5 +71,95 @@ nav a:hover{
     float: right;
     height: 100%;
     padding: 20px;
+
+}
+
+#profile-image{
+    width: 200px;
+    border-radius: 50%;
+    border:5px solid darkgoldenrod;
+
+
+}
+
+#profile{
+    text-align:center
+}
+
+.side-articles ul{
+    list-style-type: none;
+    padding-left: 0px;
+
+
+}
+
+#profile h2{
+    display:inline;
+
+}
+
+#profile-details{
+    margin-right:30px;
+    text-align:center;
+}
+
+.side-articles, .main-articles{
+    padding:10px;
+    margin-bottom:10px;
+    border-radius: 10px;
+
+}
+
+.side-articles{
+    background-color:#555;
+    text-align:center
+}
+
+.main-articles{
+    background-color:darkgray
+}
+
+form{
+    margin-top:20px;
+
+}
+
+textarea, input{
+    background-color:lightgray;
+    border-radius:5px;
+    padding:5px;
+    margin: 5px;
+
+}
+
+.side-articles h1{
+    margin-bottom:20px;
+
+}
+
+footer{
+    bottom:0px;
+    background-color:black;
+    height:5vh;
+    margin-top:0px;
+
+}
+
+footer div{
+    text-align: center;
+    color: white;
+    
+
+}
+
+main{
+    overflow:auto;
+}
+
+footer hr{
+    margin-top:0px;
+    height:12px;
+    border:0px;
+    box-shadow:inset 0 12px 12px -12px white;
 
 }
