@@ -3,17 +3,18 @@ body, html{
     margin: 0px
 }
 body{
-    background-color:aliceblue;
+    background-color: darkcyan;
 }
 
 nav li{
     display: inline;
     margin: 20px;
+    color: whitesmoke
 }
 
 
 nav ul{
-    background-color: black;
+    background-color: darkcyan;
     margin: 0;
     list-style-type:none;
     width:100%;
@@ -23,22 +24,22 @@ nav ul{
 
 nav{
     display: block;
-    color: white;
+    color: whitesmoke;
 
 }
 
 nav a{
-    color: #555;
+    color: white;
     text-decoration: none;
 
 }
 
 nav a:hover{
-    color: white
+    color: darkslateblue
 }
 
 .hero-image{
-    background-image:url("../Images/Foodie.jpeg");
+    background-image: linear-gradient(rgba(0,255,0,0.5),rgba(0,0,255,.5)),url("../Images/Foodie.jpeg");
     height: 50%;
     background-repeat:no-repeat;
     background-size:cover;
@@ -83,7 +84,9 @@ nav a:hover{
 }
 
 #hobby-image{
-    width:200px;
+    width:500px;
+    height: 150px;
+    padding: 10px
     
 }
 
@@ -116,12 +119,12 @@ nav a:hover{
 }
 
 .side-articles{
-    background-color:#555;
+    background-color: lightskyblue;
     text-align:center
 }
 
 .main-articles{
-    background-color:darkgray
+    background-color: lightskyblue
 }
 
 form{
@@ -130,7 +133,7 @@ form{
 }
 
 textarea, input{
-    background-color:lightgray;
+    background-color:white;
     border-radius:5px;
     padding:5px;
     margin: 5px;
@@ -144,7 +147,7 @@ textarea, input{
 
 footer{
     bottom:0px;
-    background-color:black;
+    background-color: lightgray;
     height:5vh;
     margin-top:0px;
 
