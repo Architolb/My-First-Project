@@ -1,9 +1,12 @@
 body, html{
     height: 100%;
     margin: 0px
+
+
 }
 body{
     background-color: darkcyan;
+
 }
 
 nav li{
@@ -12,15 +15,21 @@ nav li{
     color: whitesmoke
 }
 
+   
 
-nav ul{
+.container{
+    border: 3px solid black;
+    display: flex;
     background-color: darkcyan;
-    margin: 0;
-    list-style-type:none;
-    width:100%;
-    padding: 20px
+    margin: 0px;
+    list-style-type: none;
+    width:97%;
+    padding: 20px;
+    justify-content: flex-start;
 
 }
+
+
 
 nav{
     display: block;
@@ -107,8 +116,10 @@ nav a:hover{
 }
 
 #profile-details{
+    display: flex;
     margin-right:30px;
     text-align:center;
+    flex-direction: column;
 }
 
 .side-articles, .main-articles{
@@ -124,8 +135,33 @@ nav a:hover{
 }
 
 .main-articles{
-    background-color: lightskyblue
+    background-color: lightskyblue;
+    justify-content: center;
+   
 }
+
+.main-articles1{
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin:10px;
+
+}
+
+.main-articles2{
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin:10px;
+
+}
+
 
 form{
     margin-top:20px;
@@ -142,6 +178,7 @@ textarea, input{
 
 .side-articles h1{
     margin-bottom:20px;
+  
 
 }
 
